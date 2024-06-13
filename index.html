@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors</title>
+    <script src="https://kit.fontawesome.com/a37893a5ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>Rock Paper Scissors</h1>
+  </div>
+  <div class="note">
+    <p>You're playing against the demons of the underworld so be careful, winning is not always pleasant</p>
+  </div>
+  <div class="pick"> 
+    <div class="cards">
+        <h2>Pick :</h2>
+        <button class="toggle-button" data-choice="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
+        <button class="toggle-button" data-choice="paper"><i class="fa-regular fa-hand"></i></button>
+        <button class="toggle-button" data-choice="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
+    </div>
+    <div class="shoot">
+      <button onclick="shoot()">Shoot</button>
+    </div>
+  </div>
+  <div class="result">
+    <h2>Score : </h2>
+    <div class="you" data-value="0">0</div>
+    <div class="demons" data-value="0">0</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

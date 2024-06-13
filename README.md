@@ -1,1 +1,3 @@
 # rock_paper_scissors
+
+Working on this Rock-Paper-Scissors project will significantly enhance my JavaScript skills through practical application and hands-on experience. By building this classic game, I will deepen my understanding of core JavaScript concepts such as variables, functions, loops, conditionals, and event handling. Additionally, implementing the game logic will improve my problem-solving abilities and logical thinking. This project also provides an opportunity to practice manipulating the DOM (Document Object Model), enhancing my ability to create interactive web applications. Overall, this project serves as a foundational exercise that will prepare me for more complex JavaScript programming challenges in the future.
